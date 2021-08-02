@@ -3,4 +3,4 @@
 </p>
 <hr>
 </br>
-Yelp clone application using Postgresql, Express.js, React.js and Node.js.
+Yelp clone application using PostgreSQL, Express.js, React.js and Node.js.
