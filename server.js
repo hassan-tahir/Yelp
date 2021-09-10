@@ -42,6 +42,16 @@ app.listen(port, () => {
 app.get("/api/v1/restaurants/:resturantid", (req, res) => {
     console.log(req.params);
 });
+try {
+    const results = await.db.query(`select * from resturants where id = $(req.params.id)`)
+} catch (err) {
+    
+}
+//Error Handling
+} catch (err) {
+    console.log(err);
+}
+});
 
 // fetching all restaurant
 app.get("/api/v1/resturants", (req, res) => {
